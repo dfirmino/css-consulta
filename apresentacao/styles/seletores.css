@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  border: 1px solid #f1c40f;
+}
+table thead {
+  background: #9b59b6;
+  color: #fff;
+  border: 0;
+}
+tbody tr {
+  border-bottom: 1px solid #fff;
+  color: #f1c40f;
+  text-align: center;
+}

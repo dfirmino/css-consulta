@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Box Model</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html"> CSS </a></li>
+      <li><a href='./seletores.html'>Seletores</a></li>
+      <li><a href="./especificidade.html">Especificidade</a> </li>
+      <li><a href='./box.html'>Box Model</a></li>
+      <li><a href="./propriedades.html"> Propriedades </a></li>
+      <li><a href='./uteis.html'> Links Úteis </a></li>
+      <li><a href="./inline.html">Inline/Block</a> </li>
+      <li><a href="./position.html">Position</a> </li>
+      <li><a href="./keyframes.html">Keyframes</a> </li>
+      <li><a href="./media.html">Media Query</a> </li>
+      <li><a href="./flex.html">Flex</a> </li>
+    </ul>
+  </nav>
+  <main>
+      <h1>O QUE É</h1>
+      <div class="content">
+        <p>Box model é a forma como o elemento é exibido na tela</p>
+        <p>Podemos pensar que cada tag é uma caixa com seus elementos dentros</p>
+        <p>Podemos alterar esse comportamento por meio da propriedade box-sizing</p>
+      </div>
+
+      <h1>DEFAULT</h1>
+      <div class="content">
+        <p>Por padrão sempre que definimos o tamanho de uma caixa definimos apenas o tamanho</p>
+        <p>de seu conteúdo e isso não leva em consideração seu padding, sua bordar e sua margen</p>
+        <p>Isso é ruim, pois quando definimos um tamanho queremos que esse tamanho seja o tamanho total do elemento</p>
+        <p>e não que ele possa crescer mais que isso. Dessa forma acabamos correndo o risco de quebrar o layout</p>
+        <br />
+        <img src="https://codinglead.github.io/images/box-model.png" />
+      </div>
+
+      <h1>border-box</h1>
+      <div class="content">
+        <p>Ao setar o box-sizing para border-box alteramos esse comportamento.</p>
+        <p>E fazendo com que a nossa caixa utilize o border e padding como parte do tamanho total dela.</p>
+        <p>Garantimos assim que mesmo ao adicionar padding, border e margin o tamanho total da caixa sempre será o </p>
+        <p>tamanho que foi definido.</p>
+        <br>
+        <img src="https://miro.medium.com/max/638/1*0EpZUSn97QAWi7U_i2urTQ.png" />
+      </div>
+  </main>
+</body>
+</html>

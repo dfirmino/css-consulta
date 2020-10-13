@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Especificidade</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html"> CSS </a></li>
+      <li><a href='./seletores.html'>Seletores</a></li>
+      <li><a href="./especificidade.html">Especificidade</a> </li>
+      <li><a href='./box.html'>Box Model</a></li>
+      <li><a href="./propriedades.html"> Propriedades </a></li>
+      <li><a href='./uteis.html'> Links Úteis </a></li>
+      <li><a href="./inline.html">Inline/Block</a> </li>
+      <li><a href="./position.html">Position</a> </li>
+      <li><a href="./keyframes.html">Keyframes</a> </li>
+      <li><a href="./media.html">Media Query</a> </li>
+      <li><a href="./flex.html">Flex</a> </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>O que é</h1>
+    <div class="content">
+      <p>Para decidir qual regra será aplicada, o css faz um calculo de especificidade no seletor</p>
+      <p>aquela regra que tiver maior especificade será aplicada</p>
+    </div>
+
+    <h1>Como é feito o calculo</h1>
+    <div class="content">
+      <p>Cada seletor possui um peso, sendo eles</p>
+      <p>(<span class="red">#ID</span>, <span class="green">.CLASSE e PSEUDO-CLASSES</span>, <span class="blue">ELEMENTO e PSEUDO-ELEMENTO</span>)</p>
+      <p>É só contar e adicionar 1 para cada seletor.</p>
+    </div>
+    
+    <h1>Consulta</h1>
+    <div class="content">
+      <p>Para consultar uma especificidade especifica podemos utilizar o site: </p>
+      <p><a href="https://specificity.keegan.st/">Calculadora</a></p>
+    </div>
+  </main>
+</body>
+</html>
