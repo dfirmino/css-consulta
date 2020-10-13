@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #34495e;
+}
+
 .left {
   position: relative;
   left: 80px;
