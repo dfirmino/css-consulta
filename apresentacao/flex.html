@@ -22,5 +22,97 @@
       <li><a href="./flex.html">Flex</a> </li>
     </ul>
   </nav>
+  <main>
+    <h1>O QUE É</h1>
+      <div class="content">
+        <p>É uma nova forma de organizar layouts</p>
+        <p>Permite organizar os elementos de forma inteligente, não mais com tamanhos fixos</p>
+      </div>
+      <h1>Terminologia</h1>
+      <div class="content">
+        <p>Apartir do momento que definimos um elemento como flex ele se torna um <b>Flex Container</b></p>
+        <p>Os elementos dentro de um flex container são chamados de <b>Flex Items</b></p>
+        <p>Flex itens vão trabalhar baseados em sua <b>flex Direction</b></p>
+        <p>Flex direction são baseados em <b>eixos</b> em que os flex items serão exibidos </p>
+        <p>O eixo principal que por padrão é na <b>horizontal</b> é chamdo de  <b>Main Axis</b> </p>
+        <p>O eixo secundário que por padrão é na <b>vertical</b> é chamdo de  <b>Cross Axis</b> </p>
+      </div>
+      <h1>Conceitos</h1>
+      <div class="content" style="background: #fff;">
+        <img style="width: 90%;" src="https://miro.medium.com/max/1183/1*ubDrM-3m22gLF_pZ4DCdMw.png" />
+      </div>
+      <h1>Container</h1>
+      <div class="content">
+        <p>Para definirmos um flex container basta adicionar o display como flex</p>
+      </div>
+      
+      <h1 class="title-page">Propriedades de Flex Container</h1>
+      
+      <h1>Flex Direction</h1>
+      <div class="content">
+        <p>Define o a posição do <b>main axis</b> </p>
+        <p>Row: <b>Horizontal</b> </p>
+        <p>Row Reverse: Horizontal mas com os <b>elementos invertidos</b> </p>
+        <p>column: <b>Vertical</b> </p>
+        <p>column Reverse: Vertical mas com os <b>elementos invertidos</b> </p>
+      </div>
+
+      <h1>Flex Wrap</h1>
+      <div class="content">
+        <p>Define se os flex itens vão ir para proxima linha caso não caibam no flex container </p>
+      </div>
+      
+      <h1>Justify Content</h1>
+      <div class="content">
+        <p>Controla o alinhamento de flex itens no <b>Main Axis</b> </p>
+      </div>
+
+      <h1>Align Items</h1>
+      <div class="content">
+        <p>Controla o alinhamento de flex itens no <b>Cross Axis</b> </p>
+      </div>
+
+      <h1>Align Content</h1>
+      <div class="content">
+        <p>Controla o alinhamento dos itens distribuidos em mais de uma linha no container</p>
+      </div>
+
+      <h1 class="title-page">Propriedades de Flex Itens</h1>
+      
+      <h1>Order</h1>
+      <div class="content">
+        <p>Define a ordem de exibição dos itens</p>
+      </div>
+
+      <h1>Align Self</h1>
+      <div class="content">
+        <p>Define o alinhamento do item no <b>Cross Axis</b> </p>
+      </div>
+
+      <h1>Flex Grow</h1>
+      <div class="content">
+        <p>Define se o item irá se comportar caso exista espaço <b>sobrando</b> no container </p>
+        <p>Calcula o espaço que está sobrando do container e divide esse espaço de acordo com o valor de cada item </p>
+      </div>
+
+      <h1>Flex Shrink</h1>
+      <div class="content">
+        <p>Define se o item irá se comportar caso esteja <b>faltando</b> espaço no container </p>
+        <p>Calcula o espaço que está ultrapassando do container e remove esse espaço de acordo com o valor de cada item </p>
+      </div>
+      
+      <h1>Flex basis</h1>
+      <div class="content">
+        <p>Define o valor default do tamanho de um item em seu main axis dentro de um container</p>
+        <p>Esse comportamento pode ser alterado caso haja espaço sobrando no container e esteja com a propriedade flex grow aplicada </p>
+      </div>
+
+      <h1>Flex</h1>
+      <div class="content">
+        <p>É um atalho para se trabalhar com as propriedade Flex Grow, basis e shrink </p>
+        <p>Flex: [flex-grow] [flex-shrink] [flex-basis] </p>
+        <p>Valor Padrão -> Flex: 0 1 auto </p>
+      </div>
+  </main>
 </body>
 </html>
